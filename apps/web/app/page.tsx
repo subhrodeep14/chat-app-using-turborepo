@@ -23,7 +23,7 @@ export default function Home() {
       
       <InputBox placeholder='Room Id' size='big' />
       <button onClick={()=>{
-          router.push('/room/123')
+          router.push('/chat/123')
       }} style={{
         padding:"10px"
       }}>Join Room</button>
